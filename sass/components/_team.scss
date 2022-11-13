@@ -1,4 +1,11 @@
 /*----------  Team section  ----------*/
+.team {
+  @include section (94px, $background:var(--color-site-2));
+}
+
+.team__title {
+  @extend %section-title;
+}
 
 .team__list {
     @extend %list;

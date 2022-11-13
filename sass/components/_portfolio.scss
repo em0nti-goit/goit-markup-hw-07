@@ -1,3 +1,7 @@
+.portfolio {
+  @include section (94px);
+}
+
 .portfolio__filters {
   margin-bottom: 50px;
 }

@@ -1,4 +1,12 @@
 /*----------  Clients section  ----------*/
+.clients {
+  @include section (94px);
+}
+
+.clients__title {
+  @extend %section-title;
+}
+
 .clients__list {
   @extend %list;
 }

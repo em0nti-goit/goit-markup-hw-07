@@ -1,8 +1,9 @@
 @import './utils/modern-normalize';
+@import './utils/reset';
 @import './utils/variable';
 @import './utils/helpers';
 
-@import './base/reset';
+
 @import './base/visually-hidden';
 @import './base/fonts';
 @import './base/base';
@@ -10,7 +11,7 @@
 @import './layout/card-set';
 
 @import './components/container';
-@import './components/section';
+// @import './components/section';
 @import './components/logo';
 @import './components/button';
 @import './components/social';

@@ -1,4 +1,11 @@
 /*----------  Projects section  ----------*/
+.projects {
+  @include section (0, 94px);
+}
+
+.projects__title {
+  @extend %section-title;
+}
 
 .projects__list {
   @extend %list;

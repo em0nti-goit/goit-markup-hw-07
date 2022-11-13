@@ -1,0 +1,34 @@
+.section {
+    padding: 94px 0;
+  }
+
+.section--padding-off {
+  padding: 0;
+}
+
+.section--padding-top-off {
+  padding-top: 0;
+}
+
+.section--padding-bottom-off {
+  padding-bottom: 0;
+}
+
+.section--background-grey {
+  background-color: var(--color-site-2);
+}
+
+.section__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+
+    margin-bottom: 50px;
+  }
+
+  .section__hero {
+    max-width: 1600px;
+    min-height: 600px;
+    margin: auto;
+  }
